@@ -43,7 +43,7 @@ function App() {
           <input 
           tpye='text'
           className='search-bar'
-          placeholder='Search Country...'
+          placeholder='Search City...'
           onChange={e => setQuery(e.target.value)}
           value={query}
           onKeyPress={search}
